@@ -11,7 +11,7 @@
 
 .container{ 
     display: flex; 
-    flex-direction: column; 
+    flex-direction: row; 
     justify-content: center; 
     align-items: center;
 
@@ -21,6 +21,19 @@
 .main{ 
     border-bottom: 3px solid black; 
     margin-bottom:  1rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+   
+}
+
+.difflab{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .labnum{ 
